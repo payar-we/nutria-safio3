@@ -1,0 +1,24 @@
+name: Construir mod
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 21
+      - name: Dar permiso a gradlew
+        run: chmod +x gradlew
+      - name: Compilar
+        run: ./gradlew build --no-daemon
+      - name: Subir el .jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: nutria2-jar
+          path: build/libs/nutria2-1.0.0.jar
