@@ -1,0 +1,15 @@
+NUTRIA 2 - mod Fabric Minecraft 1.21.1 (codigo fuente)
+
+COMO CREAR EL .JAR
+1. Instala Java 21.
+2. En esta carpeta abre una terminal y escribe:  gradlew build   (Windows)  |  ./gradlew build  (Linux/Mac)
+3. El mod queda en build/libs/nutria2-1.0.0.jar  (NO uses el que dice -sources)
+4. Ponlo en .minecraft/mods junto con Fabric API.
+
+OBJETOS (pestana creativa "Nutria")
+- Bola de nieve nutria: empuja sin quitar vida.
+- Bola de nieve admin: empuja muy fuerte, no se gasta, solo la puede lanzar un admin (op nivel 2 / cheats).
+- Sonido de creeper: clic derecho = sisea (agachado = sonido de muerte de creeper).
+- Transformador creeper: clic derecho = te vuelves creeper, otro clic = vuelves a ser normal.
+
+MENU: si falla o molesta, presiona Q + M a la vez en el menu para quitarlo (vuelve el menu de Minecraft hasta que reinicies).

@@ -1,0 +1,11 @@
+{
+ "itemGroup.nutria2.nutria": "Nutria",
+ "item.nutria2.nutria_snowball": "Nutria Snowball",
+ "item.nutria2.admin_snowball": "Admin Snowball",
+ "item.nutria2.creeper_sound": "Creeper Sound",
+ "item.nutria2.creeper_morph": "Creeper Transformer",
+ "entity.nutria2.nutria_snowball": "Nutria Snowball",
+ "message.nutria2.admin_only": "Only admins can use this snowball",
+ "message.nutria2.creeper_on": "You are now a creeper",
+ "message.nutria2.creeper_off": "You are back to normal"
+}

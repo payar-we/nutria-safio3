@@ -1,0 +1,11 @@
+{
+ "itemGroup.nutria2.nutria": "Nutria",
+ "item.nutria2.nutria_snowball": "Bola de nieve nutria",
+ "item.nutria2.admin_snowball": "Bola de nieve admin",
+ "item.nutria2.creeper_sound": "Sonido de creeper",
+ "item.nutria2.creeper_morph": "Transformador creeper",
+ "entity.nutria2.nutria_snowball": "Bola de nieve nutria",
+ "message.nutria2.admin_only": "Solo los admins pueden usar esta bola de nieve",
+ "message.nutria2.creeper_on": "Ahora eres un creeper",
+ "message.nutria2.creeper_off": "Volviste a la normalidad"
+}
